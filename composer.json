@@ -1,0 +1,22 @@
+{
+    "name": "neko/debug",
+    "description": "neko microframework debugbar",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reids",
+            "email": "reids@neoblackant.org"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "psr/log": "^1.0",
+        "symfony/var-dumper": "^2.6|^3|^4|^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neko\\Debug\\": "src/"
+        }
+    }
+}
